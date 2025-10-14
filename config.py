@@ -13,7 +13,7 @@ API_ID = int(os.getenv("26416417"))
 API_HASH = os.getenv("3895a4b1872eac25b9a5ddb10b270499")
 SESSION = os.getenv("SESSION")
 HNDLR = os.getenv("HNDLR", "/")
-SUDO_USERS = list(map(int, os.getenv("SUDO_USERS").split()))
+SUDO_USERS = list(map(int, os.getenv("7083771715").split()))
 
 
 contact_filter = filters.create(
