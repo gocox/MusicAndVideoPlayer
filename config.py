@@ -9,8 +9,8 @@ if os.path.exists(".env"):
     load_dotenv(".env")
 
 # Necessary Vars
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+API_ID = int(os.getenv("26416417"))
+API_HASH = os.getenv("3895a4b1872eac25b9a5ddb10b270499")
 SESSION = os.getenv("SESSION")
 HNDLR = os.getenv("HNDLR", "/")
 SUDO_USERS = list(map(int, os.getenv("SUDO_USERS").split()))
